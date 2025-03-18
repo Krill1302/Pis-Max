@@ -1,0 +1,175 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    padding-top: 70px; /* Justér denne værdi afhængigt af navbarens højde */
+}
+/* Gør modal-boksen sort */
+.modal-content {
+    background-color: #000; /* Sort baggrund */
+    color: #fff; /* Hvid tekst */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Overskriften skal stadig være rød */
+.modal-title {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* Knapdesign - sort baggrund, hvid tekst */
+.modal-footer .btn-primary {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+    .modal-footer .btn-primary:hover {
+        background-color: #333; /* Lidt lysere sort ved hover */
+    }
+
+.video-container {
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+.cta-btn {
+    background-color: #ff0000;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.logo-icon {
+    width: 50px; /* Juster størrelsen */
+    height: auto;
+}
+
+
+.custom-footer {
+    background-color: #0056b3 !important; /* Pepsi blå */
+}
+.hero {
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Sikrer at teksten er synlig */
+    width: 100%;
+    font: italic;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    font: italic;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+    .product:nth-child(odd) {
+        flex-direction: row;
+    }
+
+    .product:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    .product img {
+        width: 370px; /* Juster størrelsen */
+        height: auto;
+    }
+
+.text {
+    max-width: 700px;
+    text-align: left;
+}
+
+    .text h2 {
+        font-size: 42px;
+        font: bold;
+    }
+
+    .text p {
+        font-size: 25px;
+        font-style: italic;
+        font: bold;
+    }
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.navbar {
+    position: fixed; /* Gør navbaren fast */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Sørger for, at navbaren altid er øverst */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand img {
+    height: 90px;
+    width: auto;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+    .navbar-nav .nav-link:hover {
+        color: #ccc !important;
+    }
+
+.social-icons img {
+    height: 24px;
+    margin-left: 10px;
+}
+.navbar {
+    background-color: #0056b3
+}
+
+

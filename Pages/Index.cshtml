@@ -1,0 +1,84 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+
+
+
+
+
+
+
+<!--Video-->
+<div class="video-container">
+    <video autoplay loop muted playsinline>
+        <source src="Video/pepsi-max.mp4" type="video/mp4">
+        Din browser understøtter ikke video-tagget.
+    </video>
+</div>
+<!--Beskrivelse på vidoen-->
+<div class="hero text-center">
+    <div>
+        <h1 class="display-3">VI HAR SKRUET OP FOR PIS MAXI</h1>
+        <p class="lead">Maksimal smag, ingen sukker – oplev den forfriskende smag i dag!</p>
+        <a href="#" class="btn btn-danger btn-lg cta-btn">Se tilbud</a>
+    </div>
+</div>
+
+<!-- Sektion med beskrivelse til videoen -->
+<div class="container text-center my-5">
+    <h2 class="fw-bold">Hvorfor Pis Maxi?</h2>
+    <p class="lead">Den perfekte balance mellem brus, smag og forfriskning – uden sukker.</p>
+</div>
+
+<!-- LEMON -->
+<div class="container">
+    <h1>Vores Produkter</h1>
+
+    <div class="product">
+        <img src="Images/Original1.png" alt="Pepsi Max">
+        <div class="text">
+            <h2>Original</h2>
+            <p> En klassisk sukkerfri cola med den velkendte Pepsi-smag, karakteriseret ved sin dybe cola-aroma og lette sødme.
+                En favorit blandt cola-elskere, der ønsker en intens smagsoplevelse uden sukker.</p>
+            <a href="#" class="btn">LÆS MERE</a>
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="Images/Lemon.png" alt="Pepsi Max Lemon">
+        <div class="text">
+            <h2>Lemon</h2>
+            <p>En sukkerfri cola med en frisk og syrlig citronsmag, der giver en let og sprød eftersmag.
+               Perfekt til dem, der ønsker en forfriskende twist på den klassiske Pis Maxi-smag.</p>
+            <a href="#" class="btn">LÆS MERE</a>
+        </div>
+    </div>
+
+	
+
+
+
+    <div class="product">
+        <img src="Images/limme.png" alt="Pepsi Max Lime">
+        <div class="text">
+            <h2>Lime</h2>
+            <p>En sukkerfri cola med en blød og forfriskende limesmag, der tilfører en let tropisk twist.
+               Den subtile lime gør den både læskende og velegnet som mixer i drinks.</p>
+            <a href="#" class="btn">LÆS MERE</a>
+        </div>
+    </div>
+
+</div>
+
+<!-- LIME -->
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var donationModal = new bootstrap.Modal(document.getElementById('donationModal'));
+      donationModal.show();
+    });
+</script>
